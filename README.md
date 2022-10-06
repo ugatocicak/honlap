@@ -1,1 +1,2 @@
-# honlap kérem a tanárurat hogy rakjon át az A csoportba
+# honla
+# kérem a tanár urat hogy rakjon át a 10DA csoprtba mert a roszba léptem be
