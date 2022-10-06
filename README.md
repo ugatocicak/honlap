@@ -1,2 +1,1 @@
-# honlap
-regisztrajon engem at az A csoportba
+# honlap kérem a tanárurat hogy rakjon át az A csoportba
