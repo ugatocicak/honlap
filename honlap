@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honlap</title>
+    <link rel="stylesheet" href="stilus.css">
+</head>
+<body>
+    <section id="banner">
+        <div class="banner-text">
+            <h1>Nagy Botond</h1>
+            <p>10/D osztályos tanuló az SZTE Ságvári Endre gimnáziumban,kérem rakjon át a 10 DA csoportba </p>
+            <div class="banner-btn">
+                <a href="orarend.html"><span></span>Órarend</a>
+                <a href="https://github.com/ugatocicak"><span></span>GitHub</a>
+                <a href="https://github.com/ugatocicak/SAGVARI"><span></span>Projects</a>
+            </div>
+        </div>
+    </section>
+</body>
+    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nationalgeographic.com%2Fanimals%2Fmammals%2Ffacts%2Forca&psig=AOvVaw1AkG9yEDWodeybguCG6D94&ust=1665730206428000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCIDcuNzO3PoCFQAAAAAdAAAAABAD"> kedvenc állatom</img>
+</html>
