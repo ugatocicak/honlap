@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title> Honlap</title>
+    <link rel="stylesheet" href="lol.css">
+</head>
+
+<body> 
+<nav>
+
+
+</nav>
+<body>
+    <h1>SVG</h1>
+
+<svg width="1000" height="700">
+    <circle cx="150" cy="250" r="40" stroke="white" stroke-width="1" fill="black" />
+    <circle id="c"
+    cx="50" cy="50" r="40" stroke="black" stroke-width="1" fill="white" />
+   
+
+</svg> 
+</body>
+
+<style>
+    svg{
+        border-radius: 5px;
+          box-shadow: 1px 1px 3px rgb(48, 145, 104);
+          border: solid rgb(57, 127, 165) 8px;
+    }
+
+</style>
+
+<script>
+     x = 50
+    setInterval (v=> {
+        document.getElementById ("c").setAttribute ("cx",x);
+        if (x<800) x += 1},10 )
+</script>
+</body>

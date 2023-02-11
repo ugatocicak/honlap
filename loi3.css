@@ -1,0 +1,40 @@
+td{
+ background-color: lightblue;
+ text-align: center;
+ box-shadow: 1px 2px 1px black;
+ height: 20px;
+ width: 23px;
+ border: 5px;
+ border-radius: 5px ;
+}
+#__{
+    background-color: navy;
+    
+
+}
+#keypad{
+    background-color: navy;
+
+}
+table{
+border: 6px double navy;
+text-decoration-style: wavy;
+border-spacing: 6px;
+background-color: mediumaquamarine;
+}
+#number{
+    background-color: rgba(225, 124, 124, 0.966)
+}
+#table1{
+    
+    float:left;
+    margin-left: 535px;
+    margin-top: 200px;
+   
+}
+#table2{
+    margin-right: 550px;
+    margin-top: 200px;
+    float:right;
+    
+}
