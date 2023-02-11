@@ -1,0 +1,68 @@
+.cim{
+    color: rgb(255, 0, 0);
+    margin: 40px;
+    text-align: center;
+}
+a:link{
+    color: rgb(0, 0, 255);
+    text-decoration: blue;
+}
+a:visited{
+    text-decoration: yellow;
+    color: rgb(255, 255, 0);
+}
+#nev,#suli{
+    text-align: center;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 80%;
+}
+body{
+    background-color: rgb(255, 190, 203);
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+}
+.container{
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.btn{
+    text-decoration: none;
+    padding: 20px 50px;
+    font-size: 1.25rem;
+    position: relative;
+    margin: 32px;
+}
+.btn-1 {
+    color: #000;
+}
+.btn-1::after, .btn-1::before{
+    border: 3px solid rgb(10, 10, 10);
+    content: "";
+    position: absolute;
+    width: calc(100% - 6px);
+    height: calc(100% - 6px);
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.3s ease;
+}
+.btn-1:hover::after{
+    transform: translate(-5px, -5px);
+}
+.btn-1:hover::before{
+    transform: translate( 5px, 5px);
+}
